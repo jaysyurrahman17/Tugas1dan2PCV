@@ -82,7 +82,7 @@ with mp_holistic.Holistic(model_complexity=1, refine_face_landmarks=True) as hol
                 current_bg[:] = (0, 0, 255) # Merah (BGR)
             
             # Tambahkan teks notifikasi
-            cv2.putText(frame, "OBJEK BIRU TERDETEKSI!", (50, 50), 
+            cv2.putText(frame, "OBJEK BIRU TERDETEKSI!", (10, 80), 
                         cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
         else:
             if bg_normal is not None:
@@ -188,7 +188,7 @@ with mp_holistic.Holistic(model_complexity=1, refine_face_landmarks=True) as hol
         # Tambahkan teks status mode
         mode_names = {'0': "Normal", '1': "Avg Blur", '2': "Gauss Blur", '3': "Sharpen"}
         cv2.putText(display_frame, f"Filter: {mode_names.get(filter_mode, 'Normal')}", (10, 30),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 255), 2)
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 0), 2)
 
         # Tampilkan Jendela
         cv2.imshow('VTuber Output (Tugas 2 Trigger)', avatar)
