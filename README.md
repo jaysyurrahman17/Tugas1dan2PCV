@@ -51,6 +51,13 @@ Fitur ini mendeteksi keberadaan objek berwarna BIRU (misal: tutup botol atau pul
 
 4. **Action Trigger:** Jika kontur objek > 500 pixel terdeteksi, latar belakang VTuber berubah menjadi ```background_special.jpg.```
 
+## 🎥 Demo Video
+
+Klik gambar di bawah ini untuk melihat video demo:
+
+[![Judul](https://drive.google.com/uc?export=view&id=1ec4OYlgAChrX0uRQ1pdKbCUWf-B17GpY)](https://drive.google.com/file/d/1uwOrMdrb7CxE1BvQ3hZS9UBdKVKxavBX/view?usp=drive_link)
+
+
 ## 🖥️ Tampilan Antarmuka
 
 Aplikasi menjalankan dua jendela sekaligus:
